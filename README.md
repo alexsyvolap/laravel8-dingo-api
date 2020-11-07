@@ -19,3 +19,8 @@
 - create new folder in `routes/api`
 - add to `RouteServiceProvider` new path to routes folder & namespace
 - add new folder in `app/Api`
+
+### Run tests
+- copy `.env.example` to `.env.testing`
+- change connection to database
+- run `vendor/bin/phpunit tests/Feature/UsersTest.php`
